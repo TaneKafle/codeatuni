@@ -1,0 +1,46 @@
+#row2{background-color: black;
+			color: white;
+			text-align: center;
+			font-family: "Arial Rounded MT Bold"}
+#forest{background-image:url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
+			text-align: center;
+			background-size: 50%
+			repeat: no-repeat;
+		}
+.panel-heading{background-color: #252B24;
+				color: white;
+				text-align: center;
+				font-family: "Arial Rounded MT Bold";}
+
+body{background-image:url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);}
+
+.success{background-color: #5cb85c;
+		color: white;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #4cae4c;
+		border-radius: 10px;}
+
+
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
+
+.crow, .eagle{display: inline-block;
+margin-left: auto;
+margin-right: auto;
+border: 2px dotted white;
+height: 200px;
+width: auto;
+padding: 10px;
+}
