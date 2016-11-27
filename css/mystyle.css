@@ -4,8 +4,8 @@
 			font-family: "Cabin"}
 #forest{background-image:url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
 			text-align: center;
-			background-size: 50%
-			repeat: no-repeat;
+			background-size: 120%;
+			/*background-repeat: no-repeat;*/
 		}
 .panel-heading{background-color: #252B24;
 				color: white;
@@ -13,7 +13,8 @@
 				font-family: "Cabin";}
 
 body{background-image:url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
-font-family: "Cabin";}
+font-family: "Cabin";
+}
 
 /*.success{background-color: #5cb85c;
 		color: white;
@@ -51,7 +52,8 @@ a:active {
 
 
 .frontstyle{font-family: "Cabin";
-			text-align: justify;}
+			text-align: justify;
+			text-shadow: 0.5px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #000, -1px 0 0 #fff;}
 #frontstyle_header, .frontstyle_h3{text-align: center;}
 
 .frontstyle_h3, .frontstyle_sample{color: white;
@@ -67,3 +69,5 @@ text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;}
 .end{color: white;
 	padding-top: 35px;
 	font-family: "Cabin";}
+
+.myname:hover{color: green;}
