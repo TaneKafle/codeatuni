@@ -1,7 +1,7 @@
 #row2{background-color: black;
 			color: white;
 			text-align: center;
-			font-family: "Arial Rounded MT Bold"}
+			font-family: "Cabin"}
 #forest{background-image:url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
 			text-align: center;
 			background-size: 50%
@@ -10,37 +10,60 @@
 .panel-heading{background-color: #252B24;
 				color: white;
 				text-align: center;
-				font-family: "Arial Rounded MT Bold";}
+				font-family: "Cabin";}
 
-body{background-image:url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);}
+body{background-image:url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
+font-family: "Cabin";}
 
-.success{background-color: #5cb85c;
+/*.success{background-color: #5cb85c;
 		color: white;
 		border-width: 1px;
 		border-style: solid;
 		border-color: #4cae4c;
+		border-radius: 10px;} */
+
+.success{background-color: black;
+		opacity: 100;
+		color: white;
+		border-width: 1px;
+		border-style: solid;
+		border-color: rbg(0,100,0);
 		border-radius: 10px;}
 
 
 a:link {
     color: white;
+    font-family: "Cabin";
 }
 a:visited {
     color: white;
+    font-family: "Cabin";
 }
 a:hover {
     color: brown;
+    font-family: "Cabin";
 }
 
 a:active {
     color: brown;
+    font-family: "Cabin";
 }
 
-.crow, .eagle{display: inline-block;
-margin-left: auto;
-margin-right: auto;
-border: 2px dotted white;
-height: 200px;
-width: auto;
-padding: 10px;
-}
+
+.frontstyle{font-family: "Cabin";
+			text-align: justify;}
+#frontstyle_header, .frontstyle_h3{text-align: center;}
+
+.frontstyle_h3, .frontstyle_sample{color: white;
+text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;}
+
+.frontstyle_h3{border-top: 2px solid black;
+				padding-top: 10px;}
+
+.frontstyle_videos{font-family: "Cabin";
+					text-align: center;
+					color: white;}
+
+.end{color: white;
+	padding-top: 35px;
+	font-family: "Cabin";}
