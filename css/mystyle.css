@@ -71,3 +71,5 @@ text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;}
 	font-family: "Cabin";}
 
 .myname:hover{color: green;}
+
+.fadeOut{text-align: right;}
